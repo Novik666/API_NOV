@@ -1,5 +1,5 @@
 from flask import Flask
-from modelo.modeloProducto import ProductoModel
+from src/modelo.modeloProducto import ProductoModel
 app = Flask(__name__)	
 
 @app.route('/')
