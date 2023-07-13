@@ -1,5 +1,5 @@
 from flask import jsonify, request
-from modelo.conexion import db_connection
+from src/modelo.conexion import db_connection
 
 def buscar_productos(codigo):
         try:
